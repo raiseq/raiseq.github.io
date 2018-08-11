@@ -1,3 +1,3 @@
-# ashleyhsia0.github.io
+# www.raiseq.com
 
-Please check out my portfolio at [ashleyhsia0.github.io](https://ashleyhsia0.github.io).
+Visit www.raiseq.com to learn details of the subjects. 
