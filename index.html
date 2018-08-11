@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ashley Hsiao</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="static/css/styles.css" rel="stylesheet">
+
+    <!-- Custom fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Sans" rel="stylesheet">
+
+    <!-- Font Awesome icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-83860385-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="row">
+
+        <!-- Toggle for better mobile display -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="mobile-navbar" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <h1 id="my-name">Ashley Hsiao</h1>
+            </div>
+
+            <!-- Collect the nav links for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="col-sm-3 sidebar">
+          <header class="header">
+            <h1>Ashley Hsiao</h1>
+            <h2>eat.sleep.code.repeat.</h2>
+          </header>
+
+          <nav class="nav-links">
+            <ul class="nav nav-sidebar">
+              <li class="active"><a href="#about">About<span class="sr-only">(current)</span></a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+          <footer class="footer">
+            <ul>
+              <li>
+                <a href="#contact">
+                  <span class="fa-stack fa-lg icons">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse" title="Connect with me by Email"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/ashleyhsia0">
+                  <span class="fa-stack fa-lg icons">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse" title="Connect with me on LinkedIn"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/ashleyhsia0">
+                <span class="fa-stack fa-lg icons">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse" title="Connect with me on GitHub"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/ashleyhsia0">
+                  <span class="fa-stack fa-lg icons">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse" title="Connect with me on Twitter"></i>
+                  </span></a>
+              </li>
+              <li>
+                <a href="https://instagram.com/ashleyhsia0">
+                  <span class="fa-stack fa-lg icons">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse" title="Connect with me on Instagram"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://snapchat.com/add/ashleyhsia0">
+                  <span class="fa-stack fa-lg icons">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-snapchat-ghost fa-stack-1x fa-inverse" title="Connect with me on Snapchat"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </footer>
+        </div><!-- /.sidebar -->
+
+        <div class="col-sm-9 col-xs-12 main" data-spy="scroll" data-target=".nav-links">
+          <section id="about">
+            <!-- <div class="section-image" id="about-image">
+            </div> -->
+            <div class="content">
+              <h1>About</h1>
+              <blockquote>
+                <h2>Hi, my name is Ashley and I am a software engineer.</h2>
+              </blockquote>
+
+              <div id="intro-container">
+                <img src="static/img/ashley.png" class="img-circle img-responsive" id="profile-image">
+                <div id="tech-stack">
+                  <h3>Tech Stack</h3>
+                  <ul>
+                    <li><span class="list-heading">Languages:</span> Python, JavaScript (AJAX, JSON), HTML, CSS, SQL, PHP</li>
+                    <li><span class="list-heading">Frameworks/Libaries:</span> Flask, Jinja, jQuery, Bootstrap, Sass, ReactJS, MeteorJS, Laravel, Blade, VueJS</li>
+                    <li><span class="list-heading">Database/Industry Tools:</span> PostgreSQL, Mongo, SQLAlchemy (ORM), Git, Command Line</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div>
+                <p>
+                  With a background in marketing, business management, and web development, I am a marketer turned software engineer who designs and develops web applications from start to finish.
+                </p>
+                <p>
+                  Programming has always been on and off in my life. As a kid, I built websites for fun as a hobby with just HTML, CSS, and Notepad. In university, I took a few introductory computer science courses and excelled at them. Revisiting this interest in design and programming, I was self-taught before attending and completing an accelerated software engineering program at Hackbright Academy.
+                </p>
+                <p>
+                  Now I am excited to leverage my business background and passion for technology into a full-stack software engineering role.
+                </p>
+                <p>
+                  When I'm not busy coding, I'm eating and sleeping. Food makes me happy &hearts;
+                </p>
+              </div>
+
+            </div><!-- /.content-->
+          </section>
+
+          <section id="projects">
+            <div class="section-image" id="projects-image">
+            </div>
+            <div class="content">
+              <h1>Projects</h1>
+              <blockquote>
+                <h2>Check out some of my projects.</h2>
+              </blockquote>
+
+              <!-- Projects Row -->
+              <div class="row">
+                <div class="col-md-6 portfolio-item">
+                  <div>
+                    <img class="img-responsive" src="static/img/project_breadcrumbs.png" alt="Breadcrumbs: A full-stack web app for foodies">
+                  </div>
+                  <div class="portfolio-item-desc">
+                    <h3>
+                      Breadcrumbs
+                    </h3>
+                    <p>
+                      A full-stack web application that lets you search for restaurants, track your eating history, as well as connect with friends.
+                    </p>
+                    <div class="portfolio-item-links">
+                      <a href="http://ah-breadcrumbs.herokuapp.com">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-home fa-stack-1x fa-inverse" title="Try out the app"></i>
+                        </span>
+                      </a>
+                      <a href="http://github.com/ashleyhsia0/breadcrumbs">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-github-alt fa-stack-1x fa-inverse" title="See the source code on GitHub"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 portfolio-item">
+                  <div>
+                    <img class="img-responsive" src="static/img/project_tweegle.png" alt="Tweegle: A Twitter search engine">
+                  </div>
+                  <div class="portfolio-item-desc">
+                    <h3>
+                      Tweegle
+                    </h3>
+                    <p>
+                      A simple Twitter search engine that finds tweets or users based on a query.
+                    </p>
+                    <div class="portfolio-item-links">
+                      <a href="http://github.com/ashleyhsia0/tweegle">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-github-alt fa-stack-1x fa-inverse" title="See the source code on GitHub"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- /.row -->
+
+              <!-- Projects Row -->
+              <div class="row">
+                <div class="col-md-6 portfolio-item">
+                  <div>
+                    <img class="img-responsive" src="static/img/project_trendtube.png" alt="TrendTube: A web app for video-watching trends">
+                  </div>
+                  <div class="portfolio-item-desc">
+                    <h3>
+                      TrendTube
+                    </h3>
+                    <p>
+                      A single-page interactive web application that reflects trends in video-watching across the world, created at a one-day hackathon.
+                    </p>
+                    <div class="portfolio-item-links">
+                      <a href="http://github.com/ashleyhsia0/trendtube">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-github-alt fa-stack-1x fa-inverse" title="See the source code on GitHub"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 portfolio-item">
+                  <div>
+                    <img class="img-responsive" src="static/img/project_mymovies.png" alt="MyMovies: A movie recommendations platform">
+                  </div>
+                  <div class="portfolio-item-desc">
+                    <h3>
+                      MyMovies
+                    </h3>
+                    <p>
+                      A movie recommendations platform that lets you rate films and predicts how you might rate the films.
+                    </p>
+                    <div class="portfolio-item-links">
+                      <a href="http://github.com/ashleyhsia0/mymovies">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-github-alt fa-stack-1x fa-inverse" title="See the source code on GitHub"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- /.row -->
+
+              <!-- Projects Row -->
+              <div class="row">
+                <div class="col-md-6 portfolio-item">
+                  <div>
+                    <img class="img-responsive" src="static/img/project_greenvalley.png" alt="900 Green Valley: A website">
+                  </div>
+                  <div class="portfolio-item-desc">
+                    <h3>
+                      900 Green Valley
+                    </h3>
+                    <p>
+                      Front-end development, implementing a website for a client in the real estate industry.
+                    </p>
+                    <div class="portfolio-item-links">
+                      <a href="http://900greenvalley.com">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-home fa-stack-1x fa-inverse" title="Check out the site"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 portfolio-item">
+                  <div>
+                    <img class="img-responsive" src="static/img/project_tailoredme.png" alt="tailoredme: A website">
+                  </div>
+                  <div class="portfolio-item-desc">
+                    <h3>
+                      tailoredme
+                    </h3>
+                    <p>
+                      Front-end development and copy writing for a client in the fashion ecommerce industry.
+                    </p>
+                    <div class="portfolio-item-links">
+                      <a href="http://tailored.me">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-home fa-stack-1x fa-inverse" title="Check out the site"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- /.row -->
+
+            </div><!-- /.content-->
+          </section>
+
+          <section id="contact">
+            <div class="section-image" id="contact-image">
+            </div>
+            <div class="content">
+              <h1>Contact</h1>
+              <blockquote>
+                <h2>Please feel free to contact me!</h2>
+              </blockquote>
+              <p>
+                I am always looking for new opportunities, so please feel free to contact me anytime.
+              </p>
+
+              <script type="text/javascript">
+              //<![CDATA[
+              <!--
+              var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+              "=119){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return " +
+              "o.substr(0,ol);}f(\")36,\\\"emgrxg5%93{orqponmlkjihgfe*730\\\\0530\\\\~IWY3" +
+              "20\\\\700\\\\230\\\\130\\\\030\\\\720\\\\620\\\\520\\\\420\\\\320\\\\220\\\\"+
+              "120\\\\020\\\\710\\\\610\\\\r\\\\410\\\\310\\\\DuZ{030\\\\SMGr\\\\530\\\\00" +
+              "0\\\\?>=<;:9876543210/`Q~W4ggsrpf,>en330\\\\.BY&r\\\\420\\\\200\\\\720\\\\3" +
+              "20\\\\120\\\\720\\\\_730\\\\400\\\\r\\\\N300\\\\030\\\\t\\\\H5U420\\\\520\\" +
+              "\\400\\\\010\\\\000\\\\BC<+70>.){400\\\\j3%-'r??;:8.wjihgfedcba`730\\\\630\\"+
+              "\\530\\\\430\\\\330\\\\230\\\\130\\\\030\\\\720\\\\XiFo410\\\\320\\\\l730\\" +
+              "\\730\\\\000\\\\AX700\\\\EGD600\\\\720\\\\t\\\\WGRFyq0qh7uwt4I)`ap|l.{eo6)(" +
+              "'&%$#\\\"\\\\! ^]\\\\\\\\[ZYXW030\\\\)600\\\\/LS,730\\\\330\\\\200\\\\630\\" +
+              "\\410\\\\G400\\\\230\\\\010\\\\000\\\\G8^120\\\\220\\\\100\\\\3=}*2>exwvuts" +
+              "rqponmlkji&330\\\\4130\\\\z5+%o300\\\\630\\\\530\\\\430\\\\330\\\\230\\\\13" +
+              "0\\\\030\\\\720\\\\620\\\\520\\\\420\\\\320\\\\220\\\\120\\\\020\\\\710\\\\" +
+              "@q^w420\\\\_ACt\\\\130\\\\400\\\\300\\\\200\\\\100\\\\000\\\\?>=<;:9876543|" +
+              "MbS0liyk}pbr*8=fdr720\\\\010\\\\r\\\\630\\\\010\\\\YZ+EW(N100\\\\600\\\\730" +
+              "\\\\530\\\\NO0700\\\\500\\\\330\\\\430\\\\t\\\\t\\\\600\\\\I610\\\\020\\\\6" +
+              "10\\\\600\\\\}200\\\\`/(;5;wtt\\\\143\\\"\\\\#*#o020\\\\v. he230\\\\ #\\\"\\"+
+              "\\12%Ra730\\\\`600\\\\_TYY620\\\\TQASEHJZ120\\\\410\\\\310\\\\n\\\\t\\\\010" +
+              "\\\\700\\\\600\\\\500\\\\400\\\\300\\\\200\\\\100\\\\000\\\\?>=<;:9vKdI*1N)" +
+              "=kc `di)86+hw.nnc\\\\\\\\!A010\\\\t\\\\030\\\\420\\\\420\\\\V300\\\\530\\\\" +
+              "720\\\\NQPONMLKJIHGFEDCBA@1200\\\\/000\\\\e6<:6:zh650#<+000\\\\ri620\\\\%-%" +
+              "')i/-34QQ^430\\\\t\\\\720\\\\TK230\\\\ZZW120\\\\n410\\\\C\\\\\\\\OAO310\\\\" +
+              "010\\\\uM@GVWFO300\\\\|\\\"\\\\lrz;v|zvz)43210/.-,+*)('&%$#l]r\\\"\\\\C^'n\\"+
+              "\\410\\\\720\\\\500\\\\120\\\\X130\\\\100\\\\530\\\\720\\\\R3S630\\\\730\\\\"+
+              "n\\\\600\\\\n\\\\H120\\\\710\\\\100\\\\XCBA@771\\\\~}|{zyxwvut=610\\\\#410\\"+
+              "\\q8$(dvihgfedcba`730\\\\630\\\\530\\\\430\\\\330\\\\230\\\\WdEj310\\\\BZV6" +
+              "30\\\\410\\\\710\\\\610\\\\r\\\\410\\\\310\\\\n\\\\t\\\\010\\\\700\\\\600\\" +
+              "\\500\\\\400\\\\300\\\\200\\\\100\\\\000\\\\?>s@iF':Kzzfg|~s\\\"\\\\c771\\\\"+
+              "cm(U5tudh`\\\"\\\\#\\\\\\\\n\\\\630\\\\130\\\\120\\\\030\\\\410\\\\310\\\\(" +
+              "230\\\\430\\\\520\\\\630\\\\720\\\\S,Rn\\\\400\\\\LI6530\\\\310\\\\200\\\\4" +
+              "10\\\\700\\\\120\\\\020\\\\=C<b;0=5z{400\\\\#.0 q610\\\\l5?79l??9&.zedcba`7" +
+              "30\\\\630\\\\530\\\\430\\\\330\\\\230\\\\130\\\\030\\\\720\\\\620\\\\520\\\\"+
+              "420\\\\320\\\\220\\\\_l]r320\\\\610\\\\w220\\\\400\\\\LJ310\\\\IK@200\\\\12" +
+              "0\\\\120\\\\2sn1wuz:K+fgr~r0ygi0+*)('&%$#\\\"\\\\! ^]\\\\\\\\[ZY620\\\\+400" +
+              "\\\\)J730\\\\720\\\\320\\\\120\\\\300\\\\AQ030\\\\010\\\\710\\\\300\\\\n\\\\"+
+              "220\\\\5[F?610\\\\400\\\\200\\\\>2p04(-685uf~?\\\"\\\\}#!.n720\\\\w:;&*&da6" +
+              "30\\\\5#ZT_IHeUQV[P620\\\\o710\\\\C_I610\\\\AIIKE420\\\\700\\\\600\\\\500\\" +
+              "\\400\\\\300\\\\200\\\\100\\\\000\\\\?>=<;:9876{HaN/2S~xcym$euic&_?rs730\\\\"+
+              "120\\\\730\\\\[410\\\\020\\\\430\\\\KVUTSRQPONMLKJIHG010\\\\9620\\\\?\\\\\\" +
+              "\\720\\\\t\\\\;qa|{zyxwvutsrqponm\\\"\\\\720\\\\8520\\\\v1/!k771\\\\ba`730\\"+
+              "\\630\\\\530\\\\430\\\\330\\\\230\\\\130\\\\030\\\\720\\\\620\\\\520\\\\420" +
+              "\\\\320\\\\220\\\\120\\\\^s\\\\\\\\q220\\\\OO[ARW@V300\\\\000\\\\}Lplirty4u" +
+              "eys6O/bcnbn,)Vz{bta`b]mi730\\\\020\\\\130\\\\Y&D430\\\\630\\\\VW(430\\\\600" +
+              "\\\\010\\\\430\\\\730\\\\310\\\\730\\\\3I6Tr\\\\n\\\\700\\\\310\\\\DA>r\\\\" +
+              "t\\\\>38~700\\\\g<(.\\\"\\\\u &\\\"\\\\?9snmlkjihgfedcba`730\\\\630\\\\530\\"+
+              "\\430\\\\330\\\\TeJk010\\\\720\\\\h310\\\\730\\\\U]200\\\\BBO310\\\\230\\\\" +
+              "030\\\\500\\\\JU010\\\\HLA300\\\\|\\\"\\\\mn}wy9n~r)43210/.-,+*)('&%$#l]r\\" +
+              "\"\\\\C020\\\\630\\\\030\\\\030\\\\420\\\\XJ600\\\\700\\\\620\\\\000\\\\520" +
+              "\\\\420\\\\.N100\\\\500\\\\n\\\\700\\\\,VE:t\\\\100\\\\100\\\\300\\\\r\\\\M" +
+              "31/(55:xe{8'~>>3m220\\\\p?8+%+gd130\\\\70'3$[_bPR[T]520\\\\j010\\\\F\\\\\\\\"+
+              "T120\\\\\\\\\\\\JLL@720\\\\n\\\\t\\\\010\\\\700\\\\600\\\\500\\\\400\\\\300" +
+              "\\\\200\\\\100\\\\000\\\\?>=<;:9vKdI*1Nae`|j!fxfn%Z8wpcmc^310\\\\520\\\\730" +
+              "\\\\FYXWVUTSRQPONMLKJ700\\\\4520\\\\:[220\\\\n\\\\600\\\\N\\\\\\\\771\\\\~}" +
+              "|{zyxwvutsrqp!220\\\\?020\\\\u< ,hzedcba`730\\\\630\\\\530\\\\430\\\\330\\\\"+
+              "230\\\\130\\\\030\\\\720\\\\620\\\\520\\\\420\\\\]nCl120\\\\JH^B_XMU600\\\\" +
+              "700\\\\xOMSTqq~1vhv~5J(g`s}s/,Qifkg*[;am# ]e320\\\\430\\\\220\\\\Y&D530\\\\" +
+              "230\\\\720\\\\330\\\\TQ.500\\\\010\\\\n\\\\230\\\\O0V710\\\\130\\\\120\\\\3" +
+              "20\\\\F120\\\\120\\\\320\\\\410\\\\010\\\\\\\\\\\\771\\\\~}|{zyxwvutsrqponm" +
+              "l%620\\\\;420\\\\yd130\\\\|n&,mSQ^430\\\\310\\\\310\\\\420\\\\UD330\\\\Y[P0" +
+              "20\\\\mr\\\\\\\\\\\\]L@Hn\\\\_AC230\\\\500\\\\400\\\\300\\\\200\\\\100\\\\0" +
+              "00\\\\?>=<;:987654}NcL1bhnjf&4bkdJ= ]l330\\\\730\\\\530\\\\720\\\\W520\\\\7" +
+              "20\\\\500\\\\200\\\\330\\\\330\\\\020\\\\RC]200\\\\530\\\\@000\\\\400\\\\t\\"+
+              "\\K4Z520\\\\620\\\\500\\\\710\\\\100\\\\AB300\\\\;0=5x500\\\\e%93t?731#rmlk" +
+              "jihgfedcba`730\\\\630\\\\530\\\\430\\\\UfKdt\\\\420\\\\iDF]CW200\\\\C_CM010" +
+              "\\\\u520\\\\TUDH@200\\\\WI{\\\"\\\\=<;:9876543210/.cPyV7*[RVKS ]=230\\\\220" +
+              "\\\\420\\\\710\\\\730\\\\420\\\\XU*030\\\\600\\\\430\\\\420\\\\\\\\\\\\400\\"+
+              "\\410\\\\710\\\\130\\\\200\\\\400\\\\t\\\\K4Z200\\\\410\\\\DA>410\\\\710\\\\"+
+              "<p15:7>030\\\\87<';;(9.a\\\"\\\\%e/,:75(6,$no500\\\\Mr\\\\010\\\\710\\\\220" +
+              "\\\\[$J030\\\\230\\\\530\\\\700\\\\120\\\\020\\\\PM2100\\\\r\\\\730\\\\400\\"+
+              "\\600\\\\220\\\\610\\\\420\\\\n\\\\410\\\\N710\\\\320\\\\710\\\\9|100\\\\a(" +
+              ")844v8&<4mrg !)?#;?i2+!.7\\\"\\\\/[\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x" +
+              "(edoCrahCmorf.gnirtS=+o;721=%y;i=+y)36==i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\" +
+              "\"\\\"=o,i rav{)y,x(f noitcnuf\")"                                           ;
+              while(x=eval(x));
+              //-->
+              //]]>
+              </script>
+
+            </div><!-- /.content-->
+          </section>
+        </div>
+
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>
