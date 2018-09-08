@@ -100,11 +100,11 @@ a:focus {
     max-height: 100vh;
     overflow: auto;
 }
-/*
+
 .section-image {
     min-height: 250px;
     width: 100%;
-}*/
+}
 
 /*body {
     background: url(../img/Screenshot%20from%202018-09-07%2014-58-04.png) no-repeat;
@@ -168,10 +168,10 @@ a:focus {
     padding-bottom: 5px;
     font-weight: bold;
 }
-
+/*
 #about {
     padding-top: 250px;  /*This is required to fix the first section-image*/
-}
+}*/
 
 #intro-container {
     display: flex;
