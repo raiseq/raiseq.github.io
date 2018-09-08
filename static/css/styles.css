@@ -17,7 +17,7 @@ a:focus {
     background-color: #191919;
     color: #FFFFFF;
     height: 100vh;
-    text-transform:camelcase;
+    /*text-transform:camelcase;*/
     padding: 0;
 }
 
@@ -28,7 +28,7 @@ a:focus {
 .sidebar .header h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     letter-spacing: 2px;
 }
 
