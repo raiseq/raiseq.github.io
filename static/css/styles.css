@@ -106,14 +106,14 @@ a:focus {
     width: 100%;
 }
 
-body {
+/*body {
     background: url(../img/Screenshot%20from%202018-09-07%2014-58-04.png) no-repeat;
     background-size: cover;
     position: fixed;
     /*z-index: -1;*/
-    top: 0;
-    left: 0;
-}
+   /* top: 0;*/
+    /*left: 0;*/
+}*/
 /*
 #sidebar-image {
     background: url(../img/Screenshot%20from%202018-09-08%2020-24-44.png) no-repeat;
