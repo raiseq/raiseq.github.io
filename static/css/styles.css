@@ -3,12 +3,12 @@ body {
 }
 
 a {
-    color: #e62c44;
+    color: #e62c33;
 }
 
 a:hover,
 a:focus {
-    color: #000000;
+    color: #0000ff;
     text-decoration: none;
 }
 
