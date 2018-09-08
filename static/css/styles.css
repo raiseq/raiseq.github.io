@@ -8,13 +8,13 @@ a {
 
 a:hover,
 a:focus {
-    color: #000000;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
 /*LEFT NAVBAR SIDE*/
 .sidebar {
-    background-color: #000000;
+    background-color: #000019;
     color: #000000;
     height: 100vh;
     /*text-transform:camelcase;*/
