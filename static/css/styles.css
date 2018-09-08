@@ -15,9 +15,9 @@ a:focus {
 /*LEFT NAVBAR SIDE*/
 .sidebar {
     background-color: #191919;
-    color: #FFFFAA;
+    color: #FFFFFF;
     height: 100vh;
-    text-transform: uppercase;
+    text-transform:camelcase;
     padding: 0;
 }
 
